@@ -9,7 +9,7 @@ import Image from "next/image"
 import HeaderItem from "./HeaderItem"
 function Header() {
   return (
-    <header className="flex flex-col sm:flex-row m-5">
+    <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
         <div className="flex flex-grow justify-evenly max-w-2xl">
             <HeaderItem title='Home' Icon={HomeIcon}/>
             <HeaderItem title='Trending' Icon={LightningBoltIcon}/>
